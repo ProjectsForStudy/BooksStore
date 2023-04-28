@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req,res) =>{
-    res.json("This is backend");
+    res.json("This is backend!");
 });
 
 /* Вывод строк в json */
